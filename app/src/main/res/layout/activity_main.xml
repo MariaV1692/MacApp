@@ -16,7 +16,7 @@
     <ImageView
             android:layout_width="0dp"
             android:layout_height="159dp" app:srcCompat="@mipmap/mac_logo_layer"
-            android:id="@+id/imageView4"
+            android:id="@+id/Logo"
             android:scaleType="fitCenter"
             app:layout_constraintStart_toStartOf="@+id/Banner"
             app:layout_constraintEnd_toEndOf="@+id/Banner"
@@ -27,9 +27,9 @@
             android:id="@+id/Avatar"
             android:scaleType="fitCenter" android:layout_marginTop="96dp"
             app:layout_constraintTop_toTopOf="parent" android:layout_marginStart="16dp"
-            app:layout_constraintStart_toStartOf="@+id/imageView4"/>
+            app:layout_constraintStart_toStartOf="@+id/Logo"/>
     <TextView
-            android:text="MacSlopes"
+            android:text="{company_name}"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/Company"

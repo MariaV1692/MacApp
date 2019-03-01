@@ -13,7 +13,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val bitmap = BitmapFactory.decodeResource(resources,R.mipmap.avatar_macc_lay)
         val rounded = RoundedBitmapDrawableFactory.create(resources,bitmap);
-        rounded.cornerRadius = 100f;
+        rounded.cornerRadius = 20f;
         Avatar.setImageDrawable(rounded)
+        Company.text = "MacSlopes"
     }
 }
